@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DifficultySelector Should match snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <DifficultySelector
+    defaultChecked={true}
+    id="test1"
+    labelText="test1"
+    onClick={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <label
+          htmlFor="test1"
+        >
+          test1
+        </label>,
+        <input
+          defaultChecked={true}
+          id="test1"
+          name="difficulty"
+          onClick={[MockFunction]}
+          type="radio"
+        />,
+      ],
+      "className": "start-difficulty-input",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "test1",
+          "htmlFor": "test1",
+        },
+        "ref": null,
+        "rendered": "test1",
+        "type": "label",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "defaultChecked": true,
+          "id": "test1",
+          "name": "difficulty",
+          "onClick": [MockFunction],
+          "type": "radio",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "input",
+      },
+    ],
+    "type": "p",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <label
+            htmlFor="test1"
+          >
+            test1
+          </label>,
+          <input
+            defaultChecked={true}
+            id="test1"
+            name="difficulty"
+            onClick={[MockFunction]}
+            type="radio"
+          />,
+        ],
+        "className": "start-difficulty-input",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "test1",
+            "htmlFor": "test1",
+          },
+          "ref": null,
+          "rendered": "test1",
+          "type": "label",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "defaultChecked": true,
+            "id": "test1",
+            "name": "difficulty",
+            "onClick": [MockFunction],
+            "type": "radio",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "input",
+        },
+      ],
+      "type": "p",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

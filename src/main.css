@@ -1,0 +1,21 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url('./imgs/back.png');
+    background-repeat: repeat-x;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+}
+
+button, input[type="submit"] {
+    cursor: pointer;
+}

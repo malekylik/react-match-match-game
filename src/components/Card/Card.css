@@ -1,0 +1,103 @@
+.card > img {
+    width: 200px;
+    height: 300px;
+    animation-duration: .75s;
+    animation-timing-function: linear;
+    user-select: none;
+}
+
+.card {
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    justify-self: center;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+.card-side-bottom {
+    opacity: 0;
+}
+
+.card-side-bottom-turned {
+    opacity: 1;
+    transform: rotate3d(0,1,0,0deg);
+    animation-direction: reverse;
+    z-index: -1;
+}
+
+.card-side-top-turned {
+    opacity: 0;
+    transform: rotate3d(0,1,0,180deg);
+    animation-direction: reverse;
+    z-index: -1;
+}
+
+.card-side-bottom-turn {
+    animation-name: card-turn-bottom; 
+} 
+
+.card-side-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.card-side-top-turn {
+    animation-name: card-turn-top; 
+}
+
+.card-rotate-animation {
+    animation-name: card-turn;
+}
+
+.card-disappear-animation {
+    cursor: default;
+    animation-name: card-disappear;
+}
+
+@keyframes card-turn-top {
+    0% {
+        transform: rotate3d(0,1,0,0); 
+        opacity: 1;
+    }
+
+    49.99% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+        transform: rotate3d(0,1,0,180deg);
+    }
+}
+
+@keyframes card-turn-bottom {
+    0% {
+        transform: rotate3d(0,1,0,180deg); 
+        opacity: 0;
+    }
+
+    49.99% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+        transform: rotate3d(0,1,0,0deg);
+    }
+}
+
+@keyframes card-disappear{
+    to {
+        opacity: 0;
+    }
+}

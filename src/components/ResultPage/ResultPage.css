@@ -1,0 +1,34 @@
+.result-page {
+    position: fixed;
+    color: white;
+    text-shadow: 0 1px black;
+    background-color: rgba(20,20,20,.85);
+    font-size: 1.8rem;
+    padding: 15px 10px;
+    border-radius: 20px;
+    width: 500px;
+    height: 300px;
+    left: calc(50% - 250px);
+    top: calc(50vh - 150px);
+    z-index: 5;
+}
+
+.result-page__congratulation {
+    text-align: center;
+}
+
+.result-page__heading {
+    text-align: center;
+}
+
+.result-page__results {
+    display: grid;
+    grid-row-gap: 5px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.result-page__results > * {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

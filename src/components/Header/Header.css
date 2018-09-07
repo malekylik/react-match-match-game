@@ -1,0 +1,14 @@
+.header {
+    margin-bottom: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.header > .timer {
+    justify-self: end;
+}
+
+.header__top-button {
+    width: 150px;
+    height: 50px;
+}

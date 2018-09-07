@@ -1,0 +1,9 @@
+.timer {
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 2.4rem;
+    background-color: #ddd;
+    text-align: center;
+    border: 1px solid #bbb;
+}

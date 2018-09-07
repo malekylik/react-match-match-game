@@ -1,0 +1,10 @@
+.loading-top {
+    text-shadow: 0 1px black;
+    background-color: rgba(5,5,5,.95);
+    border-radius: 20px;
+    z-index: 10;
+    position: absolute;
+    left: 5px;
+    top: 55px;
+    display: flex;
+}
